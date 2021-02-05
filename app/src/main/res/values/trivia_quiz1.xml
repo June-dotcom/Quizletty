@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="trivia_questions1">
+    <item>
+Trivia Question: What is the name for the Jewish New Year?\n\na) Hanukkah\n\nb) Yom Kippur\n\nc) Kwanza\n\nd) Rosh Hashanah
+    </item>
+        <item>
+2. Trivia Question: How many blue stripes are there on the U.S. flag?\n\na) 6\n\nb) 7\n\nc) 13\n\nd) 0
+
+        </item>
+        <item>
+          Trivia Question: Which one of these characters is not friends with Harry Potter?\n\na) Ron Weasley\n\nb) Neville Longbottom\n\nc) Draco Malfoy\n\nd) Hermione Granger
+        </item>
+        <item>
+           Trivia Question: What is the color of Donald Duck\u2019s bowtie?\n\na) Red\n\nb) Yellow\n\nc) Blue\n\nd) White
+        </item>
+        <item>
+            Trivia Question: What was the name of the band Lionel Richie was a part of?\n\na) King Harvest\n\nb) Spectrums\n\nc) Commodores\n\nd) The Marshall Tucker Band
+        </item>
+        <item>
+            Trivia Question: Which animal does not appear in the Chinese zodiac?\n\na) Dragon\n\nb) Rabbit\n\nc) Dog\n\nd) Hummingbird
+        </item>
+        <item>
+            Trivia Question: Which country held the 2016 Summer Olympics?\n\na) China\n\nb) Ireland\n\nc) Brazil\n\nd) Italy
+        </item>
+        <item>
+            Trivia Question: Which planet is the hottest?\n\na) Venus\n\nb) Saturn\n\nc) Mercury\n\nd) Mars
+        </item>
+        <item>
+            Trivia Question: Who was the only U.S. President to resign?\n\na) Herbert Hoover\n\nb) Richard Nixon\n\nc) George W. Bush\n\nd) Barack Obama
+        </item>
+        <item>
+            Trivia Question: What does the \u201CD\u201D in \u201CD-Day\u201D stand for?\n\na) Dooms\n\nb) Dark\n\nc) Denmark \n\nd) Dunkirk
+        </item>
+
+</string-array>
+    <string-array name="trivia_answers1">
+        <item>Rosh Hashanah</item>
+
+        <item>0</item>
+
+        <item>Draco Malfoy</item>
+
+        <item>Red</item>
+
+        <item>Commodores</item>
+
+        <item>Hummingbird</item>
+
+        <item>Brazil</item>
+
+        <item>Venus</item>
+
+        <item>Nixon</item>
+
+        <item>Dunkirk</item>
+
+
+    </string-array>
+
+
+
+</resources>

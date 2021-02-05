@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1083527202425",
+    "firebase_url": "https://quizletty-master.firebaseio.com",
+    "project_id": "quizletty-master",
+    "storage_bucket": "quizletty-master.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083527202425:android:031527bf430a9eb833f6a8",
+        "android_client_info": {
+          "package_name": "edu.ucucite.quizlettyn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1083527202425-194bi8vlrll4ooeon0ecgpubj4gcmlr0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyLixX7BcDTlyFQyqEyvX22kC4-a5VQt4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1083527202425-194bi8vlrll4ooeon0ecgpubj4gcmlr0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

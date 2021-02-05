@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".login.StartActivity">
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="94dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/googleSignInButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.shobhitpuri.custombuttons.GoogleSignInButton
+        android:id="@+id/googleSignInButton"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="94dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginBottom="4dp"
+        android:text="Continue with Google"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:isDarkTheme="true"
+        app:layout_constraintBottom_toTopOf="@+id/anon_sign_in"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/app_logo_img"
+        android:layout_width="178dp"
+        android:layout_height="184dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="117dp"
+        android:src="@drawable/photo_start"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_app_name_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="134dp"
+        android:text="@string/app_name"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/app_logo_img" />
+
+    <TextView
+        android:id="@+id/txt_app_desc_start"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="56dp"
+
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="57dp"
+        android:text="@string/app_desc"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_app_name_start" />
+
+    <Button
+        android:id="@+id/anon_sign_in"
+        android:layout_width="312dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="94dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginBottom="44dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Continue Anonymously"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

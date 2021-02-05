@@ -1,0 +1,322 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="edu.ucucite.quizlettyn"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+14    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-database:19.5.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\026590d34430e8d5d1e5009b228d3884\jetified-firebase-database-19.5.0\AndroidManifest.xml:25:5-79
+15-->[com.google.firebase:firebase-database:19.5.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\026590d34430e8d5d1e5009b228d3884\jetified-firebase-database-19.5.0\AndroidManifest.xml:25:22-76
+16    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+16-->[com.android.installreferrer:installreferrer:1.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\0dc84411bd02d9da8860a085f2ce5f3d\jetified-installreferrer-1.0\AndroidManifest.xml:9:5-110
+16-->[com.android.installreferrer:installreferrer:1.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\0dc84411bd02d9da8860a085f2ce5f3d\jetified-installreferrer-1.0\AndroidManifest.xml:9:22-107
+17
+18    <application
+18-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:7:5-59:19
+19        android:allowBackup="true"
+19-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:8:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.3.1] C:\Users\June\.gradle\caches\transforms-2\files-2.1\a62804a47368eb7ab7c7a621c89cad6f\core-1.3.1\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:icon="@mipmap/ic_launcher"
+23-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:9:9-43
+24        android:label="@string/app_name"
+24-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:10:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:11:9-54
+26        android:supportsRtl="true"
+26-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:12:9-35
+27        android:testOnly="true"
+28        android:theme="@style/AppTheme" >
+28-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:13:9-40
+29        <activity android:name="edu.ucucite.quizlettyn.TakeQuizFrmCdActivity" />
+29-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:14:9-68
+29-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:14:19-56
+30        <activity android:name="edu.ucucite.quizlettyn.WebArticleActivity" />
+30-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:15:9-56
+30-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:15:19-53
+31        <activity android:name="edu.ucucite.quizlettyn.editquiz.EditActivity" />
+31-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:16:9-59
+31-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:16:19-56
+32        <activity android:name="edu.ucucite.quizlettyn.shareQuiztoUser.ShareActivity" />
+32-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:17:9-67
+32-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:17:19-64
+33        <activity android:name="edu.ucucite.quizlettyn.score.ScoreActivity" />
+33-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:18:9-57
+33-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:18:19-54
+34        <activity android:name="edu.ucucite.quizlettyn.takequiz.TakeQuiz" />
+34-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:19:9-55
+34-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:19:19-52
+35        <activity android:name="edu.ucucite.quizlettyn.login.StartActivity" >
+35-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:20:9-26:20
+35-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:20:19-54
+36            <intent-filter>
+36-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:21:13-25:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:22:17-69
+37-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:22:25-66
+38
+39                <category android:name="android.intent.category.DEFAULT" />
+39-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:24:17-76
+39-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:24:27-73
+40            </intent-filter>
+41        </activity>
+42        <activity android:name="edu.ucucite.quizlettyn.SplashActivity" >
+42-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:27:9-33:20
+42-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:27:19-49
+43            <intent-filter>
+43-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:28:13-32:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:22:17-69
+44-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:22:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:31:17-77
+46-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:31:27-74
+47            </intent-filter>
+48        </activity>
+49        <activity
+49-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:34:9-37:59
+50            android:name="edu.ucucite.quizlettyn.MainActivity"
+50-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:35:13-41
+51            android:label="@string/app_name"
+51-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:36:13-45
+52            android:theme="@style/AppTheme.NoActionBar" />
+52-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:37:13-56
+53
+54        <meta-data
+54-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:39:9-41:55
+55            android:name="com.facebook.sdk.ApplicationId"
+55-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:40:13-58
+56            android:value="@string/facebook_app_id" />
+56-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:41:13-52
+57
+58        <activity
+58-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:43:9-46:48
+59            android:name="com.facebook.FacebookActivity"
+59-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:44:13-57
+60            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+60-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:45:13-96
+61            android:label="@string/app_name"
+61-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:46:13-45
+62            android:theme="@style/com_facebook_activity_theme" />
+62-->[com.facebook.android:facebook-common:5.15.3] C:\Users\June\.gradle\caches\transforms-2\files-2.1\1246ec95ad90518e0d9d62d14d82499f\jetified-facebook-common-5.15.3\AndroidManifest.xml:33:13-63
+63        <activity
+63-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:47:9-58:20
+64            android:name="com.facebook.CustomTabActivity"
+64-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:48:13-58
+65            android:exported="true" >
+65-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:49:13-36
+66            <intent-filter>
+66-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:50:13-57:29
+67                <action android:name="android.intent.action.VIEW" />
+67-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:51:17-69
+67-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:51:25-66
+68
+69                <category android:name="android.intent.category.DEFAULT" />
+69-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:24:17-76
+69-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:24:27-73
+70                <category android:name="android.intent.category.BROWSABLE" />
+70-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:54:17-78
+70-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:54:27-75
+71
+72                <data android:scheme="@string/fb_login_protocol_scheme" />
+72-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:56:17-75
+72-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:56:23-72
+73            </intent-filter>
+74            <intent-filter>
+74-->[com.facebook.android:facebook-common:5.15.3] C:\Users\June\.gradle\caches\transforms-2\files-2.1\1246ec95ad90518e0d9d62d14d82499f\jetified-facebook-common-5.15.3\AndroidManifest.xml:39:13-48:29
+75                <action android:name="android.intent.action.VIEW" />
+75-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:51:17-69
+75-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:51:25-66
+76
+77                <category android:name="android.intent.category.DEFAULT" />
+77-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:24:17-76
+77-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:24:27-73
+78                <category android:name="android.intent.category.BROWSABLE" />
+78-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:54:17-78
+78-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:54:27-75
+79
+80                <data
+80-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:56:17-75
+81                    android:host="cct.edu.ucucite.quizlettyn"
+82                    android:scheme="fbconnect" />
+82-->C:\Users\June\AndroidStudioProjects\QuizlettyX\app\src\main\AndroidManifest.xml:56:23-72
+83            </intent-filter>
+84        </activity>
+85        <activity android:name="com.facebook.CustomTabMainActivity" />
+85-->[com.facebook.android:facebook-common:5.15.3] C:\Users\June\.gradle\caches\transforms-2\files-2.1\1246ec95ad90518e0d9d62d14d82499f\jetified-facebook-common-5.15.3\AndroidManifest.xml:34:9-71
+85-->[com.facebook.android:facebook-common:5.15.3] C:\Users\June\.gradle\caches\transforms-2\files-2.1\1246ec95ad90518e0d9d62d14d82499f\jetified-facebook-common-5.15.3\AndroidManifest.xml:34:19-68
+86        <activity
+86-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\8bc959436e8c19b9b3159a582005ade2\jetified-firebase-auth-19.4.0\AndroidManifest.xml:24:9-31:50
+87            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+87-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\8bc959436e8c19b9b3159a582005ade2\jetified-firebase-auth-19.4.0\AndroidManifest.xml:25:13-85
+88            android:excludeFromRecents="true"
+88-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\8bc959436e8c19b9b3159a582005ade2\jetified-firebase-auth-19.4.0\AndroidManifest.xml:26:13-46
+89            android:exported="true"
+89-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\8bc959436e8c19b9b3159a582005ade2\jetified-firebase-auth-19.4.0\AndroidManifest.xml:27:13-36
+90            android:launchMode="singleTask"
+90-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\8bc959436e8c19b9b3159a582005ade2\jetified-firebase-auth-19.4.0\AndroidManifest.xml:28:13-44
+91            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+91-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\8bc959436e8c19b9b3159a582005ade2\jetified-firebase-auth-19.4.0\AndroidManifest.xml:29:13-102
+92            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+92-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\8bc959436e8c19b9b3159a582005ade2\jetified-firebase-auth-19.4.0\AndroidManifest.xml:30:13-72
+93
+94        <service
+94-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\8bc959436e8c19b9b3159a582005ade2\jetified-firebase-auth-19.4.0\AndroidManifest.xml:33:9-39:19
+95            android:name="com.google.firebase.components.ComponentDiscoveryService"
+95-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\8bc959436e8c19b9b3159a582005ade2\jetified-firebase-auth-19.4.0\AndroidManifest.xml:34:13-84
+96            android:directBootAware="true"
+96-->[com.google.firebase:firebase-common:19.5.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
+97            android:exported="false" >
+97-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\8bc959436e8c19b9b3159a582005ade2\jetified-firebase-auth-19.4.0\AndroidManifest.xml:35:13-37
+98            <meta-data
+98-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\8bc959436e8c19b9b3159a582005ade2\jetified-firebase-auth-19.4.0\AndroidManifest.xml:36:13-38:85
+99                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+99-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\8bc959436e8c19b9b3159a582005ade2\jetified-firebase-auth-19.4.0\AndroidManifest.xml:37:17-109
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\8bc959436e8c19b9b3159a582005ade2\jetified-firebase-auth-19.4.0\AndroidManifest.xml:38:17-82
+101            <meta-data
+101-->[com.google.firebase:firebase-database:19.5.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\026590d34430e8d5d1e5009b228d3884\jetified-firebase-database-19.5.0\AndroidManifest.xml:32:13-34:85
+102                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+102-->[com.google.firebase:firebase-database:19.5.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\026590d34430e8d5d1e5009b228d3884\jetified-firebase-database-19.5.0\AndroidManifest.xml:33:17-109
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[com.google.firebase:firebase-database:19.5.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\026590d34430e8d5d1e5009b228d3884\jetified-firebase-database-19.5.0\AndroidManifest.xml:34:17-82
+104            <meta-data
+104-->[com.google.firebase:firebase-firestore:22.0.2] C:\Users\June\.gradle\caches\transforms-2\files-2.1\6cdc398b68abe25f2f12f349b0307b53\jetified-firebase-firestore-22.0.2\AndroidManifest.xml:20:13-22:85
+105                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+105-->[com.google.firebase:firebase-firestore:22.0.2] C:\Users\June\.gradle\caches\transforms-2\files-2.1\6cdc398b68abe25f2f12f349b0307b53\jetified-firebase-firestore-22.0.2\AndroidManifest.xml:21:17-111
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[com.google.firebase:firebase-firestore:22.0.2] C:\Users\June\.gradle\caches\transforms-2\files-2.1\6cdc398b68abe25f2f12f349b0307b53\jetified-firebase-firestore-22.0.2\AndroidManifest.xml:22:17-82
+107            <!--
+108                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+109                clients to use it as well, by defining this registrar in their own core/common library.
+110            -->
+111            <meta-data
+111-->[com.google.firebase:firebase-common:19.5.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
+112                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+112-->[com.google.firebase:firebase-common:19.5.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[com.google.firebase:firebase-common:19.5.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
+114        </service>
+115
+116        <activity
+116-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\95220e22201545ff629ad37ca1fc4de1\jetified-play-services-auth-18.1.0\AndroidManifest.xml:23:9-27:75
+117            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+117-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\95220e22201545ff629ad37ca1fc4de1\jetified-play-services-auth-18.1.0\AndroidManifest.xml:24:13-93
+118            android:excludeFromRecents="true"
+118-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\95220e22201545ff629ad37ca1fc4de1\jetified-play-services-auth-18.1.0\AndroidManifest.xml:25:13-46
+119            android:exported="false"
+119-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\95220e22201545ff629ad37ca1fc4de1\jetified-play-services-auth-18.1.0\AndroidManifest.xml:26:13-37
+120            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+120-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\95220e22201545ff629ad37ca1fc4de1\jetified-play-services-auth-18.1.0\AndroidManifest.xml:27:13-72
+121        <!--
+122            Service handling Google Sign-In user revocation. For apps that do not integrate with
+123            Google Sign-In, this service will never be started.
+124        -->
+125        <service
+125-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\95220e22201545ff629ad37ca1fc4de1\jetified-play-services-auth-18.1.0\AndroidManifest.xml:33:9-37:51
+126            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+126-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\95220e22201545ff629ad37ca1fc4de1\jetified-play-services-auth-18.1.0\AndroidManifest.xml:34:13-89
+127            android:exported="true"
+127-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\95220e22201545ff629ad37ca1fc4de1\jetified-play-services-auth-18.1.0\AndroidManifest.xml:35:13-36
+128            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+128-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\95220e22201545ff629ad37ca1fc4de1\jetified-play-services-auth-18.1.0\AndroidManifest.xml:36:13-107
+129            android:visibleToInstantApps="true" />
+129-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\95220e22201545ff629ad37ca1fc4de1\jetified-play-services-auth-18.1.0\AndroidManifest.xml:37:13-48
+130
+131        <provider
+131-->[com.squareup.picasso:picasso:2.71828] C:\Users\June\.gradle\caches\transforms-2\files-2.1\8c9d877405753923ba7e86a7a72cae6e\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+132            android:name="com.squareup.picasso.PicassoProvider"
+132-->[com.squareup.picasso:picasso:2.71828] C:\Users\June\.gradle\caches\transforms-2\files-2.1\8c9d877405753923ba7e86a7a72cae6e\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+133            android:authorities="edu.ucucite.quizlettyn.com.squareup.picasso"
+133-->[com.squareup.picasso:picasso:2.71828] C:\Users\June\.gradle\caches\transforms-2\files-2.1\8c9d877405753923ba7e86a7a72cae6e\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+134            android:exported="false" />
+134-->[com.squareup.picasso:picasso:2.71828] C:\Users\June\.gradle\caches\transforms-2\files-2.1\8c9d877405753923ba7e86a7a72cae6e\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+135        <!--
+136         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+137         with the application context. This config is merged in with the host app's manifest,
+138         but there can only be one provider with the same authority activated at any given
+139         point; so if the end user has two or more different apps that use Facebook SDK, only the
+140         first one will be able to use the provider. To work around this problem, we use the
+141         following placeholder in the authority to identify each host application as if it was
+142         a completely different provider.
+143        -->
+144        <provider
+144-->[com.facebook.android:facebook-core:5.15.3] C:\Users\June\.gradle\caches\transforms-2\files-2.1\29ba95bc6801e130386f2e6db1349a26\jetified-facebook-core-5.15.3\AndroidManifest.xml:39:9-42:40
+145            android:name="com.facebook.internal.FacebookInitProvider"
+145-->[com.facebook.android:facebook-core:5.15.3] C:\Users\June\.gradle\caches\transforms-2\files-2.1\29ba95bc6801e130386f2e6db1349a26\jetified-facebook-core-5.15.3\AndroidManifest.xml:40:13-70
+146            android:authorities="edu.ucucite.quizlettyn.FacebookInitProvider"
+146-->[com.facebook.android:facebook-core:5.15.3] C:\Users\June\.gradle\caches\transforms-2\files-2.1\29ba95bc6801e130386f2e6db1349a26\jetified-facebook-core-5.15.3\AndroidManifest.xml:41:13-72
+147            android:exported="false" />
+147-->[com.facebook.android:facebook-core:5.15.3] C:\Users\June\.gradle\caches\transforms-2\files-2.1\29ba95bc6801e130386f2e6db1349a26\jetified-facebook-core-5.15.3\AndroidManifest.xml:42:13-37
+148
+149        <receiver
+149-->[com.facebook.android:facebook-core:5.15.3] C:\Users\June\.gradle\caches\transforms-2\files-2.1\29ba95bc6801e130386f2e6db1349a26\jetified-facebook-core-5.15.3\AndroidManifest.xml:44:9-50:20
+150            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+150-->[com.facebook.android:facebook-core:5.15.3] C:\Users\June\.gradle\caches\transforms-2\files-2.1\29ba95bc6801e130386f2e6db1349a26\jetified-facebook-core-5.15.3\AndroidManifest.xml:45:13-86
+151            android:exported="false" >
+151-->[com.facebook.android:facebook-core:5.15.3] C:\Users\June\.gradle\caches\transforms-2\files-2.1\29ba95bc6801e130386f2e6db1349a26\jetified-facebook-core-5.15.3\AndroidManifest.xml:46:13-37
+152            <intent-filter>
+152-->[com.facebook.android:facebook-core:5.15.3] C:\Users\June\.gradle\caches\transforms-2\files-2.1\29ba95bc6801e130386f2e6db1349a26\jetified-facebook-core-5.15.3\AndroidManifest.xml:47:13-49:29
+153                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+153-->[com.facebook.android:facebook-core:5.15.3] C:\Users\June\.gradle\caches\transforms-2\files-2.1\29ba95bc6801e130386f2e6db1349a26\jetified-facebook-core-5.15.3\AndroidManifest.xml:48:17-95
+153-->[com.facebook.android:facebook-core:5.15.3] C:\Users\June\.gradle\caches\transforms-2\files-2.1\29ba95bc6801e130386f2e6db1349a26\jetified-facebook-core-5.15.3\AndroidManifest.xml:48:25-92
+154            </intent-filter>
+155        </receiver>
+156
+157        <activity
+157-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\0b51e261c3d6b16a7e1190585a252a55\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+158            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+158-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\0b51e261c3d6b16a7e1190585a252a55\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+159            android:exported="false"
+159-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\0b51e261c3d6b16a7e1190585a252a55\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+160            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+160-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\0b51e261c3d6b16a7e1190585a252a55\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+161
+162        <provider
+162-->[com.google.firebase:firebase-common:19.5.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
+163            android:name="com.google.firebase.provider.FirebaseInitProvider"
+163-->[com.google.firebase:firebase-common:19.5.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
+164            android:authorities="edu.ucucite.quizlettyn.firebaseinitprovider"
+164-->[com.google.firebase:firebase-common:19.5.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
+165            android:directBootAware="true"
+165-->[com.google.firebase:firebase-common:19.5.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
+166            android:exported="false"
+166-->[com.google.firebase:firebase-common:19.5.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
+167            android:initOrder="100" />
+167-->[com.google.firebase:firebase-common:19.5.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
+168
+169        <meta-data
+169-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\June\.gradle\caches\transforms-2\files-2.1\ea032b517a5954dacb08e2dcade0980b\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
+170            android:name="com.google.android.gms.version"
+170-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\June\.gradle\caches\transforms-2\files-2.1\ea032b517a5954dacb08e2dcade0980b\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
+171            android:value="@integer/google_play_services_version" />
+171-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\June\.gradle\caches\transforms-2\files-2.1\ea032b517a5954dacb08e2dcade0980b\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
+172
+173        <provider
+173-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\62161d83a5f1f63c2549d3610631f4d5\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+174            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+174-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\62161d83a5f1f63c2549d3610631f4d5\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+175            android:authorities="edu.ucucite.quizlettyn.lifecycle-process"
+175-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\62161d83a5f1f63c2549d3610631f4d5\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+176            android:exported="false"
+176-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\62161d83a5f1f63c2549d3610631f4d5\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+177            android:multiprocess="true" />
+177-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\June\.gradle\caches\transforms-2\files-2.1\62161d83a5f1f63c2549d3610631f4d5\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+178    </application>
+179
+180</manifest>

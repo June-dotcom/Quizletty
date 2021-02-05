@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="vocab_questions1">
+        <item>>The prince abdicated the crown and returned to his castle.
+        Abdicated means\u2026\nGave up. \nSold. \nReinvested into. \nAuctioned.\n</item>
+        <item>The convicted criminal absconded prior to the sentencing phase of the trial.
+Absconded means\u2026\nTouched the jury. \nReported immediately. \nLeft after discussion.
+\nDeparted secretly.\n</item>
+        <item>The aural component of balance is critical for postural control during ambulation. Aural means related
+    to the\u2026\nEye. \nEar. \nNose. \nMouth.</item>
+        <item>The old man was benevolent with his fortune. Benevolent means\u2026\nSecretive. \nStingy. \nKind. \nCareful.\n</item>
+        <item>
+            The extra dirt was a key buttress to the foundation.
+        Buttress means\u2026\nLimiting factor. \nSupport. \nOverwhelming condition. \nObstacle.
+        </item>
+        <item>
+            The cathode of a battery was removed. Cathode means\u2026\nPositive pole. \nNegative pole. \nNeutral pole. \nOpposite pole.
+        </item>
+        <item>
+             The doctor was known as a charlatan over the years of his practice. Charlatan means\u2026\nQuack.
+            \nKnowledgeable physician. \nProcedural physician. \nMedical examiner.
+        </item>
+        <item>
+       The wound exhibited signs of copious drainage requiring medical intervention. Copious means\u2026\nMinimal. \nClear. \nMaximal. \nFoul.
+        </item>
+        <item>
+            The attorney accused the witness of defaming the defendant. Defaming means\u2026\nKilling. \nBadgering. \nSuffocating. \nSlandering.
+        </item>
+        <item>
+            The detective was able to derive the facts of the case. Derive means\u2026\nDesist. \nDeter. \nDevise. \nDeduce.
+        </item>
+    </string-array>
+    <string-array name="vocab_answers1">
+        <item>Gave up</item>
+        <item>Departed secretly</item>
+        <item>Ear</item>
+        <item>Kind</item>
+        <item>Support</item>
+        <item>Negative pole</item>
+        <item>Quack</item>
+        <item>Maximal</item>
+        <item>Slandering</item>
+        <item>Deduce</item>
+    </string-array>
+
+
+
+
+
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="math_questions1">
+        <item>5x + 3 = 7x \u2013 1. Find x\n\na. 1/3\nb. \u00BD\nc. 1\nd. 2</item>
+        <item>5x + 2(x + 7) = 14x \u2013 7. Find x\n\na. 1\nb. 2\nc. 3\nd. 4</item>
+        <item>12t \u2013 10 = 14t + 2. Find t\n\na. -6\nb. -4\nc. 4\nd. 6</item>
+        <item> 5(z + 1) = 3(z + 2) + 11 Solve for Z\n\na. 2\nb. 4\nc. 6\nd. 12</item>
+        <item>The price of a book went up from $20 to $25. By how many percent did the price increase?\n\na. 5\nb. 10\nc. 20\nd. 25</item>
+        <item>The price of a book decreased from $25 to $20. By how many percent did the price decrease?\n\na. 5\nb. 10\nc. 20\nd. 25</item>
+        <item>After taking several practice tests, Brian improved the results of his GRE test by 30%. Given that the first time he took the test Brian had answered 150 questions correctly, how many correct answers did he answer in the second test?\n\na. 105\nb. 120\nc. 180\nd. 195</item>
+        <item>A number is increased by 2 and then multiplied by 3. The result is 24. What is this number?\n\na. 4\nb. 6\nc. 8\nd.  10</item>
+        <item> My father\u2019s age divided by 5 is equal to my brother\u2019s age divided by 3. My brother is 3 years older than me. My father\u2019s age is 3 less than 2 times my age. How old is my father?\n\na. 34\nb. 45\nc. 56\nd. 61</item>
+        <item>
+             (x \u2013 2) / 4 \u2013 (3x + 5) / 7 = \u2013 3, x = ?\n\na. 6\nb. 7\nc. 10\nd. 13
+        </item>
+    </string-array>
+    <string-array name="math_answers1">
+        <item>d</item>
+        <item>c</item>
+        <item>a</item>
+        <item>c</item>
+        <item>d</item>
+        <item>c</item>
+        <item>d</item>
+        <item>b</item>
+        <item>b</item>
+        <item>c</item>
+    </string-array>
+</resources>

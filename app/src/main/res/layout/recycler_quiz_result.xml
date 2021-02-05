@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_container_qa"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="4dp"
+    android:layout_marginHorizontal="8dp"
+    app:cardCornerRadius="0dp"
+    android:clickable="true"
+    android:elevation="1dp"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/result_remarks"
+            android:layout_width="8dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            app:srcCompat="@color/colorWrongAnswer" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginVertical="16dp"
+        android:layout_marginHorizontal="16dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/result_question_rev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Q: What is the capital of tarlac" />
+
+        <TextView
+            android:id="@+id/result_my_answer_rev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="My Answer: Tarlac" />
+
+        <TextView
+            android:id="@+id/result_correct_answer_rev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Correct answer: Tarlac" />
+    </LinearLayout>
+    </FrameLayout>
+</com.google.android.material.card.MaterialCardView>

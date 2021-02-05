@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sci_questions1">
+        <item>This essential gas is important so that we can breath.\n</item>
+        <item>What is the nearest planet to the sun?</item>
+        <item>How many teeth does an adult human have?\n</item>
+        <item>What is the largest planet in the solar system?</item>
+        <item>What do bees collect and use to create honey?</item>
+        <item>What is the hottest planet in the solar system?</item>
+        <item>What is the rarest blood type?</item>
+        <item>On what part of your body would you find the pinna?</item>
+        <item>What part of the plant conducts photosyntehsis?</item>
+        <item>What\u2019s the boiling point of water in degrees celcius?</item>
+        <item>What is the largest known land animal?
+</item>
+    </string-array>
+    <string-array name="sci_answers1">
+        <item>Oxygen</item>
+        <item>Mercury</item>
+        <item>32</item>
+        <item>Jupiter</item>
+        <item>Nectar</item>
+        <item>Venus</item>
+        <item>AB negative</item>
+        <item>Ear</item>
+        <item>Leaf</item>
+        <item>100</item>
+        <item>Elephant</item>
+    </string-array>
+</resources>
