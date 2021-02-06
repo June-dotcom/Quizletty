@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\June\\AndroidStudioProjects\\QuizlettyX\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-id\\values-id.xml",
+            "outputFile": "C:\\Users\\Prog\\Documents\\QuizlettyX\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-id\\values-id.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\June\\.gradle\\caches\\transforms-2\\files-2.1\\1246ec95ad90518e0d9d62d14d82499f\\jetified-facebook-common-5.15.3\\res\\values-id\\values-id.xml",
+                    "source": "C:\\Users\\Prog\\.gradle\\caches\\transforms-2\\files-2.1\\1db644cacd018b6b4f7047d8a7ccbc84\\jetified-facebook-common-5.15.3\\res\\values-id\\values-id.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

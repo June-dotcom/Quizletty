@@ -12,7 +12,12 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="app_desc">Play, create and share quizzes in a simple and intuitive way.</string>
 
-
+    <string name="internet_error">
+    Make sure that Wi-Fi or mobile data is turned on, then try again.
+    </string>
+    <string name="internet_conn_error">
+        Make sure that your Wi-Fi or mobile data is successfully conected to the internet.
+    </string>
 
 
 </resources>

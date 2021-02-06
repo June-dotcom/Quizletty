@@ -1,6 +1,9 @@
 package edu.ucucite.quizlettyn;
 
+import android.content.Context;
 import android.graphics.Color;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -41,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
     private AppBarConfiguration mAppBarConfiguration;
     CircleImageView profile_image;
     FirebaseUser user;
+    private static String fb_name, fb_email;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
         // menu should be considered as top level destinations.
 
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_create_quiz, R.id.nav_my_quizzes,R.id.nav_shared_quiz, R.id.nav_logout)
+                R.id.nav_home, R.id.nav_create_quiz, R.id.nav_my_quizzes, R.id.nav_shared_quiz, R.id.nav_logout)
                 .setDrawerLayout(drawer)
                 .build();
         profile_image = navigationView.getHeaderView(0).findViewById(R.id.profile_img);
@@ -69,23 +73,29 @@ public class MainActivity extends AppCompatActivity {
         getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
         getWindow().setStatusBarColor(Color.WHITE);
 
-
-        String fb_email = user.getEmail();
-
-        String fb_name = user.getDisplayName();
-        if (fb_name.equals("")){
-            fb_name = "Guest user";
-            fb_email = "No account information";
+        try {
+            fb_email = user.getEmail();
+            fb_name = user.getDisplayName();
+            if (fb_name.equals("")) {
+                fb_name = "Guest user";
+                fb_email = "No account information";
+            }
+        }catch (Exception e){
+            fb_name = "Unavailable";
+            fb_email = "Unavailable";
         }
+
         Uri fb_profile = user.getPhotoUrl();
 
         acc_name.setText(fb_name);
         email_name.setText(fb_email);
         Glide.with(this).load(fb_profile).into(profile_image);
+
 //        Toast.makeText(this, user.getUid(), Toast.LENGTH_SHORT).show();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
+
     }
 
 //    @Override

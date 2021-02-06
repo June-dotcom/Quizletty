@@ -1,11 +1,17 @@
 package edu.ucucite.quizlettyn.fragment_nav.home;
 
+import android.app.AlertDialog;
+import android.content.Context;
+import android.content.DialogInterface;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
@@ -23,6 +29,7 @@ import edu.ucucite.quizlettyn.fragment_nav.home.preloadedquizmiscs.preloaded_qui
 import edu.ucucite.quizlettyn.fragment_nav.home.preloadedquizmiscs.preloaded_quiz_obj;
 import edu.ucucite.quizlettyn.fragment_nav.myquizzes.myQuizItemsAdapter;
 
+import static edu.ucucite.quizlettyn.InternetDetection.detectInternetAvailability;
 import static edu.ucucite.quizlettyn.fragment_nav.home.preloadedquizmiscs.preloaded_quizzes_sets.math_quiz;
 import static edu.ucucite.quizlettyn.fragment_nav.home.preloadedquizmiscs.preloaded_quizzes_sets.sci_quiz;
 import static edu.ucucite.quizlettyn.fragment_nav.home.preloadedquizmiscs.preloaded_quizzes_sets.trivia_quiz;
@@ -32,35 +39,42 @@ public class HomeFragment extends Fragment {
 
 
     private ImageView dash_profile;
-    private ArrayList<preloaded_quiz_obj> menuquizzesItems = new ArrayList<>();
+    private final ArrayList<preloaded_quiz_obj> menuquizzesItems = new ArrayList<>();
     private RecyclerView mRecyclerView;
     private RecyclerView.LayoutManager mLayoutMan;
     private preloaded_quiz_adapter mAdapter;
     View root;
-
+    FirebaseUser curent_user;
+    String user_name;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         root = inflater.inflate(R.layout.fragment_home, container, false);
 //        home_items_ArrayList.add(new home_items_obj("How to study at home during coronavirus", "Website", ))
         TextView user_name_txt = root.findViewById(R.id.home_user_name_txt);
-        FirebaseUser curent_user = FirebaseAuth.getInstance().getCurrentUser();
-        String user_name = curent_user.getDisplayName();
-        if (user_name.equals("")){
+        try {
+            curent_user = FirebaseAuth.getInstance().getCurrentUser();
+            user_name = curent_user.getDisplayName();
+            if (user_name.equals("")) {
+                user_name = "Guest";
+            }
+            if (curent_user.equals(null)) {
+                user_name_txt.setText("Guest");
+            }
+        }catch (Exception e){
             user_name = "Guest";
         }
-        if (curent_user.equals(null)){
-            user_name_txt.setText("Guest");
 
-        }
         user_name_txt.setText(user_name);
         buildprofile_bg_random();
+        detectInternetAvailability(getContext());
         create_list();
         buildrecycler();
         return root;
     }
 
-    public void create_list(){
+
+    public void create_list() {
         menuquizzesItems.add(new preloaded_quiz_obj("Math",
                 "Input the letter of the correct answer", math_quiz(getContext())));
         menuquizzesItems.add(new preloaded_quiz_obj("Trivia",
@@ -69,10 +83,10 @@ public class HomeFragment extends Fragment {
                 "Choose from below the questions then input your answer", vocab_test(getContext())));
         menuquizzesItems.add(new preloaded_quiz_obj("Science",
                 "Choose from below the questions then input your answer", sci_quiz(getContext())
-                ));
+        ));
     }
 
-    public void buildrecycler(){
+    public void buildrecycler() {
         mRecyclerView = root.findViewById(R.id.recycler_pre_ld_quizzes);
         mRecyclerView.setHasFixedSize(false);
         mLayoutMan = new LinearLayoutManager(getContext());
@@ -84,8 +98,7 @@ public class HomeFragment extends Fragment {
     }
 
 
-
-    public void buildprofile_bg_random(){
+    public void buildprofile_bg_random() {
         dash_profile = root.findViewById(R.id.profile_bg_home);
         Random random = new Random();
         dash_profile.setImageResource(getContext().getResources().getIdentifier(

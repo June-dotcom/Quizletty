@@ -89,12 +89,17 @@ public class TakeQuiz extends AppCompatActivity {
 //            initquiz();
 
         } else if (quiz_frm_type.equals("frm_qz_code")) {
+
             quiz_code_str = intent.getStringExtra("quiz_code");
-            findViewById(R.id.quiz_desc_card).setVisibility(View.GONE);
+//            findViewById(R.id.quiz_desc_card).setVisibility(View.GONE);
             GLOBAL_COUNTER_INDEX = 0;
             createQuizList(quiz_code_str);
-
-
+            initquiz();
+        } else if (quiz_frm_type.equals("frm_qz_qr")) {
+            quiz_code_str = intent.getStringExtra("quiz_code");
+//            findViewById(R.id.quiz_desc_card).setVisibility(View.GONE);
+            GLOBAL_COUNTER_INDEX = 0;
+            createQuizList(quiz_code_str);
             initquiz();
         } else if (quiz_frm_type.equals("frm_qz_sample")) {
 //            findViewById(R.id.quiz_desc_card).setVisibility(View.GONE);
@@ -117,6 +122,7 @@ public class TakeQuiz extends AppCompatActivity {
 //        int total_index = takeQuizItems.size();
         int total_index = takeQuizItems.size();
         tv_qz_progress.setText(current_index + "/" + total_index);
+
         tv_question.setText(takeQuizItems.get(GLOBAL_COUNTER_INDEX).getQuestion());
         // for now testing
         ed_anstxt.setText(takeQuizItems.get(GLOBAL_COUNTER_INDEX).getInputted_answer());

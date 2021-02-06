@@ -17,6 +17,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -25,6 +27,9 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.QueryDocumentSnapshot;
+import com.google.firebase.firestore.QuerySnapshot;
 
 import java.util.ArrayList;
 
@@ -79,7 +84,6 @@ public class myquizzesFragment extends Fragment {
     }
 
 
-
     public void create_menu_list() {
 //        menuQuizzesItems = new ArrayList<>();
         user = FirebaseAuth.getInstance().getCurrentUser();
@@ -109,39 +113,47 @@ public class myquizzesFragment extends Fragment {
 
     public void startquiz() {
         quiz_code_query = quiz_code_query_ed.getText().toString();
+        Toast.makeText(getContext(), quiz_code_query, Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(getContext(), TakeQuiz.class);
+        intent.putExtra("quiz_code", quiz_code_query);
+        intent.putExtra("quiz_frm_type", "frm_qz_code");
+        view.getContext().startActivity(intent);
+
+
 //        Toast.makeText(getContext(), quiz_code_query, Toast.LENGTH_SHORT).show();
-        db_ref_quiz_probe = FirebaseDatabase.getInstance().getReference().child("Quizzes_set").child(quiz_code_query);
-        db_ref_quiz_probe.addListenerForSingleValueEvent(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot snapshot) {
-                if(snapshot.exists()){
-//                     user exists in the database
-                    Intent intent = new Intent(getContext(), TakeQuiz.class);
-                        intent.putExtra("quiz_code", quiz_code_query);
-                    intent.putExtra("quiz_frm_type", "frm_qz_code");
-                    view.getContext().startActivity(intent);
-                    Toast.makeText(getContext(), "Existed", Toast.LENGTH_SHORT).show();
-                }else{
-                    // user does not exist in the database
-                    Toast.makeText(getContext(), "not-existed", Toast.LENGTH_SHORT).show();
 
-                }
-//                if (snapshot.hasChild(quiz_code_query)) {
-//                    if (!quiz_code_query.equals("")) {
-//                        Intent intent = new Intent(getContext(), TakeQuiz.class);
+//        db_ref_quiz_probe = FirebaseDatabase.getInstance().getReference().child("Quizzes_set").child(quiz_code_query);
+//        db_ref_quiz_probe.addListenerForSingleValueEvent(new ValueEventListener() {
+//            @Override
+//            public void onDataChange(@NonNull DataSnapshot snapshot) {
+//                if(snapshot.exists()){
+////                     user exists in the database
+//                    Intent intent = new Intent(getContext(), TakeQuiz.class);
 //                        intent.putExtra("quiz_code", quiz_code_query);
-//                        view.getContext().startActivity(intent);
-//                    }
-//                } else {
-//                    Toast.makeText(getContext(), quiz_code_query + " does not exists", Toast.LENGTH_SHORT).show();
+//                    intent.putExtra("quiz_frm_type", "frm_qz_code");
+//                    view.getContext().startActivity(intent);
+//                    Toast.makeText(getContext(), "Existed", Toast.LENGTH_SHORT).show();
+//                }else{
+//                    // user does not exist in the database
+//                    Toast.makeText(getContext(), "not-existed", Toast.LENGTH_SHORT).show();
+//
 //                }
-            }
-
-            @Override
-            public void onCancelled(@NonNull DatabaseError error) {
-
-            }
-        });
+////                if (snapshot.hasChild(quiz_code_query)) {
+////                    if (!quiz_code_query.equals("")) {
+////                        Intent intent = new Intent(getContext(), TakeQuiz.class);
+////                        intent.putExtra("quiz_code", quiz_code_query);
+////                        view.getContext().startActivity(intent);
+////                    }
+////                } else {
+////                    Toast.makeText(getContext(), quiz_code_query + " does not exists", Toast.LENGTH_SHORT).show();
+////                }
+//            }
+//
+//            @Override
+//            public void onCancelled(@NonNull DatabaseError error) {
+//
+//            }
+//        });
     }
 
     public void onEditItem(int position) {
@@ -193,10 +205,11 @@ public class myquizzesFragment extends Fragment {
         startActivity(intent);
     }
 
-    public void onSaveItem(int position){
+    public void onSaveItem(int position) {
         myQuizItems Quizitem_save_obj = menuQuizzesItems.get(position);
 
     }
+
     public void buildRecyclerView() {
         mRecyclerView = view.findViewById(R.id.my_quizzes_menu_items);
         mRecyclerView.setHasFixedSize(false);

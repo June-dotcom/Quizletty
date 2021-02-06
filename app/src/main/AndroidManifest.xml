@@ -3,6 +3,7 @@
     package="edu.ucucite.quizlettyn">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -11,7 +12,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TakeQuizFrmCdActivity"></activity>
+        <activity android:name=".ScanQrQzCodeActivity"></activity>
+        <activity android:name=".ShowQrQzStActivity" />
+        <activity android:name=".TakeQuizFrmCdActivity" />
         <activity android:name=".WebArticleActivity" />
         <activity android:name=".editquiz.EditActivity" />
         <activity android:name=".shareQuiztoUser.ShareActivity" />

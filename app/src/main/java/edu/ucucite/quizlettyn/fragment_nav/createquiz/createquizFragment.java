@@ -86,8 +86,6 @@ public class createquizFragment extends Fragment {
         crt_quiz();
         //db_ref
 
-
-
         //end of db ref
         fab = root.findViewById(R.id.fab_add);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -231,7 +229,7 @@ public class createquizFragment extends Fragment {
         UUID idOne = UUID.randomUUID();
         Calendar cal = Calendar.getInstance();
 
-        String uni_id =  String.valueOf(idOne).substring(1, 5) + String.valueOf(new SimpleDateFormat("MD").format(cal.getTime()));
+        String uni_id =  String.valueOf(idOne).substring(1, 5) + new SimpleDateFormat("MD").format(cal.getTime());
         String quiz_set_id = "QZLTY-" + uni_id.toUpperCase();
 //        for (quizItem quizItem: quizItemsArrayList_save){
 //            db.collection("quizzes").document(quiz_set_id).set(quizItem).document().add(quizItem).addOnSuccessListener(new OnSuccessListener<Void>() {

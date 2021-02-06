@@ -15,33 +15,36 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:orientation="vertical">
+
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
-                android:layout_margin="8dp"
                 android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:clickable="true"
                 android:focusable="true"
-                android:clickable="true">
+                android:visibility="gone">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="16dp"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:padding="16dp">
 
                     <TextView
                         android:id="@+id/mod_quiz_title_take_quiz_txt"
                         android:layout_width="wrap_content"
-                        android:fontFamily="sans-serif-medium"
-                        android:textSize="20sp"
                         android:layout_height="wrap_content"
-                        android:text="Texttitlequizhere" />
+                        android:fontFamily="sans-serif-medium"
+                        android:text="Texttitlequizhere"
+                        android:textSize="20sp" />
+
                     <TextView
                         android:id="@+id/mod_quiz_desc_take_quiz_txt"
                         android:layout_width="wrap_content"
-                        android:fontFamily="sans-serif"
-                        android:textSize="16sp"
                         android:layout_height="wrap_content"
-                        android:text="Textdescquizhere" />
+                        android:fontFamily="sans-serif"
+                        android:text="Textdescquizhere"
+                        android:textSize="16sp" />
                 </LinearLayout>
 
             </com.google.android.material.card.MaterialCardView>

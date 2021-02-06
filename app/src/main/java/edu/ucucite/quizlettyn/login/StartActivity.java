@@ -57,7 +57,7 @@ public class StartActivity extends AppCompatActivity {
     private GoogleSignInClient mGoogleSignInClient;
     private DatabaseReference db_ref_user_accounts;
     private static int RC_SIGN_IN;
-    private FirebaseAuth mAuth;
+    private  FirebaseAuth mAuth;
     private static final String EMAIL = "email";
     LoginButton loginButton;
     CallbackManager callbackManager;
@@ -70,8 +70,10 @@ public class StartActivity extends AppCompatActivity {
     public void onStart() {
         super.onStart();
         // Check if user is signed in (non-null) and update UI accordingly.
+
         FirebaseUser currentUser = mAuth.getCurrentUser();
-        updateUI(currentUser);
+            updateUI(currentUser);
+
     }
 
 
@@ -85,7 +87,7 @@ public class StartActivity extends AppCompatActivity {
         setGoogleSignInClient();
         mAuth = FirebaseAuth.getInstance();
         callbackManager = CallbackManager.Factory.create();
-        loginButton = (LoginButton) findViewById(R.id.login_button);
+        loginButton = findViewById(R.id.login_button);
         loginButton.setPermissions("email", "public_profile");
         // Callback registration
         loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
@@ -194,6 +196,7 @@ public class StartActivity extends AppCompatActivity {
                             Log.d("TAG", "signInAnonymously:success");
                             FirebaseUser user = mAuth.getCurrentUser();
                             updateUIanon(user);
+
                         } else {
                             // If sign in fails, display a message to the user.
                             Log.w("TAG", "signInAnonymously:failure", task.getException());
@@ -251,13 +254,17 @@ public class StartActivity extends AppCompatActivity {
 
     public void updateUIanon(FirebaseUser currentUser) {
         if (currentUser != null) {
-            Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+            Intent intent = new Intent(StartActivity.this, MainActivity.class);
             startActivity(intent);
         }
     }
     public void updateUI(FirebaseUser currentUser) {
         if (currentUser != null) {
-//            setUserToDatabase(currentUser);
+            try {
+                setUserToDatabase(currentUser);
+            }catch (Exception e){
+                // failed sign in to database
+            }
             Intent intent = new Intent(getApplicationContext(), MainActivity.class);
             startActivity(intent);
         }

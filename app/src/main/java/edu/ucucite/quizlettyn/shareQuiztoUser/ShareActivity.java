@@ -11,11 +11,15 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.google.android.material.snackbar.Snackbar;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -25,6 +29,7 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 
 import edu.ucucite.quizlettyn.R;
+import edu.ucucite.quizlettyn.ShowQrQzStActivity;
 import edu.ucucite.quizlettyn.fragment_nav.myquizzes.myQuizItems;
 
 public class ShareActivity extends AppCompatActivity {
@@ -118,6 +123,26 @@ public class ShareActivity extends AppCompatActivity {
             }
         });
     }
+//    @Override
+//    public boolean onCreateOptionsMenu(Menu menu) {
+//        MenuInflater findMenuItems = getMenuInflater();
+//        findMenuItems.inflate(R.menu.menu_shared_quiz, menu);
+//        return super.onCreateOptionsMenu(menu);
+//    }
+//    @Override
+//    public boolean onOptionsItemSelected(MenuItem item) {
+//        switch (item.getItemId()) {
+//            case R.id.shared_qr_quiz_set:
+//                Intent intentqr = new Intent(getApplicationContext(), ShowQrQzStActivity.class);
+//                intentqr.putExtra("qr_qzlty_code", quizItem_to_share.getQuiz_code());
+//                intentqr.putExtra("qr_qzlty_name", quizItem_to_share.getQuiz_name());
+//                startActivity(intentqr);
+//                break;
+//
+//        }
+//        return super.onOptionsItemSelected(item);
+//    }
+
 
     public void buildRecyclerView() {
 //        userAccInfos = new ArrayList<>();
