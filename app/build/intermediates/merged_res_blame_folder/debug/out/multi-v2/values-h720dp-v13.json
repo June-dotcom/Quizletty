@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Prog\\Documents\\QuizlettyX\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
+            "outputFile": "C:\\Users\\Jun\\AndroidStudioProjects\\Quizletty\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Prog\\.gradle\\caches\\transforms-2\\files-2.1\\8602c2f677dbc61cac20155eaf71d2f2\\appcompat-1.2.0\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "source": "C:\\Users\\Jun\\.gradle\\caches\\transforms-2\\files-2.1\\8602c2f677dbc61cac20155eaf71d2f2\\appcompat-1.2.0\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

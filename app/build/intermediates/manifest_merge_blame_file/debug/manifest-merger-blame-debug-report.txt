@@ -6,249 +6,249 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="23"
-8-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml
+8-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml
+9-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:5:5-67
-11-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:5:22-64
+11-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:6:5-79
-12-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:6:22-76
+12-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:6:22-76
 13    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-13-->[com.android.installreferrer:installreferrer:1.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\6334002f09f676be2b775e6356606744\jetified-installreferrer-1.0\AndroidManifest.xml:9:5-110
-13-->[com.android.installreferrer:installreferrer:1.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\6334002f09f676be2b775e6356606744\jetified-installreferrer-1.0\AndroidManifest.xml:9:22-107
+13-->[com.android.installreferrer:installreferrer:1.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\6b7def2d6ff6a4e7088aa294b7b00971\jetified-installreferrer-1.0\AndroidManifest.xml:9:5-110
+13-->[com.android.installreferrer:installreferrer:1.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\6b7def2d6ff6a4e7088aa294b7b00971\jetified-installreferrer-1.0\AndroidManifest.xml:9:22-107
 14
 15    <application
-15-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:8:5-62:19
+15-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:8:5-62:19
 16        android:allowBackup="true"
-16-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:9:9-35
+16-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:9:9-35
 17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-17-->[androidx.core:core:1.3.1] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\a62804a47368eb7ab7c7a621c89cad6f\core-1.3.1\AndroidManifest.xml:24:18-86
+17-->[androidx.core:core:1.3.1] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\a62804a47368eb7ab7c7a621c89cad6f\core-1.3.1\AndroidManifest.xml:24:18-86
 18        android:debuggable="true"
 19        android:extractNativeLibs="false"
 20        android:icon="@mipmap/ic_launcher"
-20-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:10:9-43
+20-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:10:9-43
 21        android:label="@string/app_name"
-21-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:11:9-41
+21-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:11:9-41
 22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:12:9-54
+22-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:12:9-54
 23        android:supportsRtl="true"
-23-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:13:9-35
+23-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:13:9-35
 24        android:testOnly="true"
 25        android:theme="@style/AppTheme" >
-25-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:14:9-40
+25-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:14:9-40
 26        <activity android:name="edu.ucucite.quizlettyn.ScanQrQzCodeActivity" />
-26-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:15:9-67
-26-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:15:19-55
+26-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:15:9-67
+26-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:15:19-55
 27        <activity android:name="edu.ucucite.quizlettyn.ShowQrQzStActivity" />
-27-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:16:9-56
-27-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:16:19-53
+27-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:16:9-56
+27-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:16:19-53
 28        <activity android:name="edu.ucucite.quizlettyn.TakeQuizFrmCdActivity" />
-28-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:17:9-59
-28-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:17:19-56
+28-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:17:9-59
+28-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:17:19-56
 29        <activity android:name="edu.ucucite.quizlettyn.WebArticleActivity" />
-29-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:18:9-56
-29-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:18:19-53
+29-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:18:9-56
+29-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:18:19-53
 30        <activity android:name="edu.ucucite.quizlettyn.editquiz.EditActivity" />
-30-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:19:9-59
-30-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:19:19-56
+30-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:19:9-59
+30-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:19:19-56
 31        <activity android:name="edu.ucucite.quizlettyn.shareQuiztoUser.ShareActivity" />
-31-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:20:9-67
-31-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:20:19-64
+31-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:20:9-67
+31-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:20:19-64
 32        <activity android:name="edu.ucucite.quizlettyn.score.ScoreActivity" />
-32-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:21:9-57
-32-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:21:19-54
+32-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:21:9-57
+32-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:21:19-54
 33        <activity android:name="edu.ucucite.quizlettyn.takequiz.TakeQuiz" />
-33-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:22:9-55
-33-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:22:19-52
+33-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:22:9-55
+33-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:22:19-52
 34        <activity android:name="edu.ucucite.quizlettyn.login.StartActivity" >
-34-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:23:9-29:20
-34-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:23:19-54
+34-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:23:9-29:20
+34-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:23:19-54
 35            <intent-filter>
-35-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:24:13-28:29
+35-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:24:13-28:29
 36                <action android:name="android.intent.action.MAIN" />
-36-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:25:17-69
-36-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:25:25-66
+36-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:25:17-69
+36-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:25:25-66
 37
 38                <category android:name="android.intent.category.DEFAULT" />
-38-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:27:17-76
-38-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:27:27-73
+38-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:27:17-76
+38-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:27:27-73
 39            </intent-filter>
 40        </activity>
 41        <activity android:name="edu.ucucite.quizlettyn.SplashActivity" >
-41-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:30:9-36:20
-41-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:30:19-49
+41-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:30:9-36:20
+41-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:30:19-49
 42            <intent-filter>
-42-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:31:13-35:29
+42-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:31:13-35:29
 43                <action android:name="android.intent.action.MAIN" />
-43-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:25:17-69
-43-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:25:25-66
+43-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:25:17-69
+43-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:25:25-66
 44
 45                <category android:name="android.intent.category.LAUNCHER" />
-45-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:34:17-77
-45-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:34:27-74
+45-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:34:17-77
+45-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:34:27-74
 46            </intent-filter>
 47        </activity>
 48        <activity
-48-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:37:9-40:59
+48-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:37:9-40:59
 49            android:name="edu.ucucite.quizlettyn.MainActivity"
-49-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:38:13-41
+49-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:38:13-41
 50            android:label="@string/app_name"
-50-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:39:13-45
+50-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:39:13-45
 51            android:theme="@style/AppTheme.NoActionBar" />
-51-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:40:13-56
+51-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:40:13-56
 52
 53        <meta-data
-53-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:42:9-44:55
+53-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:42:9-44:55
 54            android:name="com.facebook.sdk.ApplicationId"
-54-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:43:13-58
+54-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:43:13-58
 55            android:value="@string/facebook_app_id" />
-55-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:44:13-52
+55-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:44:13-52
 56
 57        <activity
-57-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:46:9-49:48
+57-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:46:9-49:48
 58            android:name="com.facebook.FacebookActivity"
-58-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:47:13-57
+58-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:47:13-57
 59            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-59-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:48:13-96
+59-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:48:13-96
 60            android:label="@string/app_name"
-60-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:49:13-45
+60-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:49:13-45
 61            android:theme="@style/com_facebook_activity_theme" />
-61-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\1db644cacd018b6b4f7047d8a7ccbc84\jetified-facebook-common-5.15.3\AndroidManifest.xml:33:13-63
+61-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\0df63ac667887efe09fe3fedfeffbc3d\jetified-facebook-common-5.15.3\AndroidManifest.xml:33:13-63
 62        <activity
-62-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:50:9-61:20
+62-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:50:9-61:20
 63            android:name="com.facebook.CustomTabActivity"
-63-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:51:13-58
+63-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:51:13-58
 64            android:exported="true" >
-64-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:52:13-36
+64-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:52:13-36
 65            <intent-filter>
-65-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:53:13-60:29
+65-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:53:13-60:29
 66                <action android:name="android.intent.action.VIEW" />
-66-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:54:17-69
-66-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:54:25-66
+66-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:54:17-69
+66-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:54:25-66
 67
 68                <category android:name="android.intent.category.DEFAULT" />
-68-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:27:17-76
-68-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:27:27-73
+68-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:27:17-76
+68-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:27:27-73
 69                <category android:name="android.intent.category.BROWSABLE" />
-69-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:57:17-78
-69-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:57:27-75
+69-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:57:17-78
+69-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:57:27-75
 70
 71                <data android:scheme="@string/fb_login_protocol_scheme" />
-71-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:59:17-75
-71-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:59:23-72
+71-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:59:17-75
+71-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:59:23-72
 72            </intent-filter>
 73            <intent-filter>
-73-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\1db644cacd018b6b4f7047d8a7ccbc84\jetified-facebook-common-5.15.3\AndroidManifest.xml:39:13-48:29
+73-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\0df63ac667887efe09fe3fedfeffbc3d\jetified-facebook-common-5.15.3\AndroidManifest.xml:39:13-48:29
 74                <action android:name="android.intent.action.VIEW" />
-74-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:54:17-69
-74-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:54:25-66
+74-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:54:17-69
+74-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:54:25-66
 75
 76                <category android:name="android.intent.category.DEFAULT" />
-76-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:27:17-76
-76-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:27:27-73
+76-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:27:17-76
+76-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:27:27-73
 77                <category android:name="android.intent.category.BROWSABLE" />
-77-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:57:17-78
-77-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:57:27-75
+77-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:57:17-78
+77-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:57:27-75
 78
 79                <data
-79-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:59:17-75
+79-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:59:17-75
 80                    android:host="cct.edu.ucucite.quizlettyn"
 81                    android:scheme="fbconnect" />
-81-->C:\Users\Prog\Documents\QuizlettyX\app\src\main\AndroidManifest.xml:59:23-72
+81-->C:\Users\Jun\AndroidStudioProjects\Quizletty\app\src\main\AndroidManifest.xml:59:23-72
 82            </intent-filter>
 83        </activity>
 84        <activity android:name="com.facebook.CustomTabMainActivity" />
-84-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\1db644cacd018b6b4f7047d8a7ccbc84\jetified-facebook-common-5.15.3\AndroidManifest.xml:34:9-71
-84-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\1db644cacd018b6b4f7047d8a7ccbc84\jetified-facebook-common-5.15.3\AndroidManifest.xml:34:19-68
+84-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\0df63ac667887efe09fe3fedfeffbc3d\jetified-facebook-common-5.15.3\AndroidManifest.xml:34:9-71
+84-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\0df63ac667887efe09fe3fedfeffbc3d\jetified-facebook-common-5.15.3\AndroidManifest.xml:34:19-68
 85        <activity
-85-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\8bc959436e8c19b9b3159a582005ade2\jetified-firebase-auth-19.4.0\AndroidManifest.xml:24:9-31:50
+85-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\8bc959436e8c19b9b3159a582005ade2\jetified-firebase-auth-19.4.0\AndroidManifest.xml:24:9-31:50
 86            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
-86-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\8bc959436e8c19b9b3159a582005ade2\jetified-firebase-auth-19.4.0\AndroidManifest.xml:25:13-85
+86-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\8bc959436e8c19b9b3159a582005ade2\jetified-firebase-auth-19.4.0\AndroidManifest.xml:25:13-85
 87            android:excludeFromRecents="true"
-87-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\8bc959436e8c19b9b3159a582005ade2\jetified-firebase-auth-19.4.0\AndroidManifest.xml:26:13-46
+87-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\8bc959436e8c19b9b3159a582005ade2\jetified-firebase-auth-19.4.0\AndroidManifest.xml:26:13-46
 88            android:exported="true"
-88-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\8bc959436e8c19b9b3159a582005ade2\jetified-firebase-auth-19.4.0\AndroidManifest.xml:27:13-36
+88-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\8bc959436e8c19b9b3159a582005ade2\jetified-firebase-auth-19.4.0\AndroidManifest.xml:27:13-36
 89            android:launchMode="singleTask"
-89-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\8bc959436e8c19b9b3159a582005ade2\jetified-firebase-auth-19.4.0\AndroidManifest.xml:28:13-44
+89-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\8bc959436e8c19b9b3159a582005ade2\jetified-firebase-auth-19.4.0\AndroidManifest.xml:28:13-44
 90            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
-90-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\8bc959436e8c19b9b3159a582005ade2\jetified-firebase-auth-19.4.0\AndroidManifest.xml:29:13-102
+90-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\8bc959436e8c19b9b3159a582005ade2\jetified-firebase-auth-19.4.0\AndroidManifest.xml:29:13-102
 91            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-91-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\8bc959436e8c19b9b3159a582005ade2\jetified-firebase-auth-19.4.0\AndroidManifest.xml:30:13-72
+91-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\8bc959436e8c19b9b3159a582005ade2\jetified-firebase-auth-19.4.0\AndroidManifest.xml:30:13-72
 92
 93        <service
-93-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\8bc959436e8c19b9b3159a582005ade2\jetified-firebase-auth-19.4.0\AndroidManifest.xml:33:9-39:19
+93-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\8bc959436e8c19b9b3159a582005ade2\jetified-firebase-auth-19.4.0\AndroidManifest.xml:33:9-39:19
 94            android:name="com.google.firebase.components.ComponentDiscoveryService"
-94-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\8bc959436e8c19b9b3159a582005ade2\jetified-firebase-auth-19.4.0\AndroidManifest.xml:34:13-84
+94-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\8bc959436e8c19b9b3159a582005ade2\jetified-firebase-auth-19.4.0\AndroidManifest.xml:34:13-84
 95            android:directBootAware="true"
-95-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
+95-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
 96            android:exported="false" >
-96-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\8bc959436e8c19b9b3159a582005ade2\jetified-firebase-auth-19.4.0\AndroidManifest.xml:35:13-37
+96-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\8bc959436e8c19b9b3159a582005ade2\jetified-firebase-auth-19.4.0\AndroidManifest.xml:35:13-37
 97            <meta-data
-97-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\8bc959436e8c19b9b3159a582005ade2\jetified-firebase-auth-19.4.0\AndroidManifest.xml:36:13-38:85
+97-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\8bc959436e8c19b9b3159a582005ade2\jetified-firebase-auth-19.4.0\AndroidManifest.xml:36:13-38:85
 98                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-98-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\8bc959436e8c19b9b3159a582005ade2\jetified-firebase-auth-19.4.0\AndroidManifest.xml:37:17-109
+98-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\8bc959436e8c19b9b3159a582005ade2\jetified-firebase-auth-19.4.0\AndroidManifest.xml:37:17-109
 99                android:value="com.google.firebase.components.ComponentRegistrar" />
-99-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\8bc959436e8c19b9b3159a582005ade2\jetified-firebase-auth-19.4.0\AndroidManifest.xml:38:17-82
+99-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\8bc959436e8c19b9b3159a582005ade2\jetified-firebase-auth-19.4.0\AndroidManifest.xml:38:17-82
 100            <meta-data
-100-->[com.google.firebase:firebase-database:19.5.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\026590d34430e8d5d1e5009b228d3884\jetified-firebase-database-19.5.0\AndroidManifest.xml:32:13-34:85
+100-->[com.google.firebase:firebase-database:19.5.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\026590d34430e8d5d1e5009b228d3884\jetified-firebase-database-19.5.0\AndroidManifest.xml:32:13-34:85
 101                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-101-->[com.google.firebase:firebase-database:19.5.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\026590d34430e8d5d1e5009b228d3884\jetified-firebase-database-19.5.0\AndroidManifest.xml:33:17-109
+101-->[com.google.firebase:firebase-database:19.5.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\026590d34430e8d5d1e5009b228d3884\jetified-firebase-database-19.5.0\AndroidManifest.xml:33:17-109
 102                android:value="com.google.firebase.components.ComponentRegistrar" />
-102-->[com.google.firebase:firebase-database:19.5.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\026590d34430e8d5d1e5009b228d3884\jetified-firebase-database-19.5.0\AndroidManifest.xml:34:17-82
+102-->[com.google.firebase:firebase-database:19.5.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\026590d34430e8d5d1e5009b228d3884\jetified-firebase-database-19.5.0\AndroidManifest.xml:34:17-82
 103            <meta-data
-103-->[com.google.firebase:firebase-firestore:22.0.2] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\6cdc398b68abe25f2f12f349b0307b53\jetified-firebase-firestore-22.0.2\AndroidManifest.xml:20:13-22:85
+103-->[com.google.firebase:firebase-firestore:22.0.2] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\6cdc398b68abe25f2f12f349b0307b53\jetified-firebase-firestore-22.0.2\AndroidManifest.xml:20:13-22:85
 104                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-104-->[com.google.firebase:firebase-firestore:22.0.2] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\6cdc398b68abe25f2f12f349b0307b53\jetified-firebase-firestore-22.0.2\AndroidManifest.xml:21:17-111
+104-->[com.google.firebase:firebase-firestore:22.0.2] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\6cdc398b68abe25f2f12f349b0307b53\jetified-firebase-firestore-22.0.2\AndroidManifest.xml:21:17-111
 105                android:value="com.google.firebase.components.ComponentRegistrar" />
-105-->[com.google.firebase:firebase-firestore:22.0.2] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\6cdc398b68abe25f2f12f349b0307b53\jetified-firebase-firestore-22.0.2\AndroidManifest.xml:22:17-82
+105-->[com.google.firebase:firebase-firestore:22.0.2] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\6cdc398b68abe25f2f12f349b0307b53\jetified-firebase-firestore-22.0.2\AndroidManifest.xml:22:17-82
 106            <!--
 107                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
 108                clients to use it as well, by defining this registrar in their own core/common library.
 109            -->
 110            <meta-data
-110-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
+110-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
 111                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
-111-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
+111-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
 112                android:value="com.google.firebase.components.ComponentRegistrar" />
-112-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
+112-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
 113        </service>
 114
 115        <activity
-115-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\95220e22201545ff629ad37ca1fc4de1\jetified-play-services-auth-18.1.0\AndroidManifest.xml:23:9-27:75
+115-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\95220e22201545ff629ad37ca1fc4de1\jetified-play-services-auth-18.1.0\AndroidManifest.xml:23:9-27:75
 116            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-116-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\95220e22201545ff629ad37ca1fc4de1\jetified-play-services-auth-18.1.0\AndroidManifest.xml:24:13-93
+116-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\95220e22201545ff629ad37ca1fc4de1\jetified-play-services-auth-18.1.0\AndroidManifest.xml:24:13-93
 117            android:excludeFromRecents="true"
-117-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\95220e22201545ff629ad37ca1fc4de1\jetified-play-services-auth-18.1.0\AndroidManifest.xml:25:13-46
+117-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\95220e22201545ff629ad37ca1fc4de1\jetified-play-services-auth-18.1.0\AndroidManifest.xml:25:13-46
 118            android:exported="false"
-118-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\95220e22201545ff629ad37ca1fc4de1\jetified-play-services-auth-18.1.0\AndroidManifest.xml:26:13-37
+118-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\95220e22201545ff629ad37ca1fc4de1\jetified-play-services-auth-18.1.0\AndroidManifest.xml:26:13-37
 119            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-119-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\95220e22201545ff629ad37ca1fc4de1\jetified-play-services-auth-18.1.0\AndroidManifest.xml:27:13-72
+119-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\95220e22201545ff629ad37ca1fc4de1\jetified-play-services-auth-18.1.0\AndroidManifest.xml:27:13-72
 120        <!--
 121            Service handling Google Sign-In user revocation. For apps that do not integrate with
 122            Google Sign-In, this service will never be started.
 123        -->
 124        <service
-124-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\95220e22201545ff629ad37ca1fc4de1\jetified-play-services-auth-18.1.0\AndroidManifest.xml:33:9-37:51
+124-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\95220e22201545ff629ad37ca1fc4de1\jetified-play-services-auth-18.1.0\AndroidManifest.xml:33:9-37:51
 125            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-125-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\95220e22201545ff629ad37ca1fc4de1\jetified-play-services-auth-18.1.0\AndroidManifest.xml:34:13-89
+125-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\95220e22201545ff629ad37ca1fc4de1\jetified-play-services-auth-18.1.0\AndroidManifest.xml:34:13-89
 126            android:exported="true"
-126-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\95220e22201545ff629ad37ca1fc4de1\jetified-play-services-auth-18.1.0\AndroidManifest.xml:35:13-36
+126-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\95220e22201545ff629ad37ca1fc4de1\jetified-play-services-auth-18.1.0\AndroidManifest.xml:35:13-36
 127            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
-127-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\95220e22201545ff629ad37ca1fc4de1\jetified-play-services-auth-18.1.0\AndroidManifest.xml:36:13-107
+127-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\95220e22201545ff629ad37ca1fc4de1\jetified-play-services-auth-18.1.0\AndroidManifest.xml:36:13-107
 128            android:visibleToInstantApps="true" />
-128-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\95220e22201545ff629ad37ca1fc4de1\jetified-play-services-auth-18.1.0\AndroidManifest.xml:37:13-48
+128-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\95220e22201545ff629ad37ca1fc4de1\jetified-play-services-auth-18.1.0\AndroidManifest.xml:37:13-48
 129
 130        <provider
-130-->[com.squareup.picasso:picasso:2.71828] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\a5536e221bb475acdd75424e6ef9576f\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+130-->[com.squareup.picasso:picasso:2.71828] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\9ec93efd7ac0fb95a25a6845df12eb42\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
 131            android:name="com.squareup.picasso.PicassoProvider"
-131-->[com.squareup.picasso:picasso:2.71828] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\a5536e221bb475acdd75424e6ef9576f\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+131-->[com.squareup.picasso:picasso:2.71828] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\9ec93efd7ac0fb95a25a6845df12eb42\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
 132            android:authorities="edu.ucucite.quizlettyn.com.squareup.picasso"
-132-->[com.squareup.picasso:picasso:2.71828] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\a5536e221bb475acdd75424e6ef9576f\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+132-->[com.squareup.picasso:picasso:2.71828] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\9ec93efd7ac0fb95a25a6845df12eb42\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
 133            android:exported="false" />
-133-->[com.squareup.picasso:picasso:2.71828] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\a5536e221bb475acdd75424e6ef9576f\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+133-->[com.squareup.picasso:picasso:2.71828] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\9ec93efd7ac0fb95a25a6845df12eb42\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
 134        <!--
 135         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
 136         with the application context. This config is merged in with the host app's manifest,
@@ -259,67 +259,67 @@
 141         a completely different provider.
 142        -->
 143        <provider
-143-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\ce3c9635f118d18e6faaca8e1af4c017\jetified-facebook-core-5.15.3\AndroidManifest.xml:39:9-42:40
+143-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\e24ed458064fee905d5f0d03e5965251\jetified-facebook-core-5.15.3\AndroidManifest.xml:39:9-42:40
 144            android:name="com.facebook.internal.FacebookInitProvider"
-144-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\ce3c9635f118d18e6faaca8e1af4c017\jetified-facebook-core-5.15.3\AndroidManifest.xml:40:13-70
+144-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\e24ed458064fee905d5f0d03e5965251\jetified-facebook-core-5.15.3\AndroidManifest.xml:40:13-70
 145            android:authorities="edu.ucucite.quizlettyn.FacebookInitProvider"
-145-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\ce3c9635f118d18e6faaca8e1af4c017\jetified-facebook-core-5.15.3\AndroidManifest.xml:41:13-72
+145-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\e24ed458064fee905d5f0d03e5965251\jetified-facebook-core-5.15.3\AndroidManifest.xml:41:13-72
 146            android:exported="false" />
-146-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\ce3c9635f118d18e6faaca8e1af4c017\jetified-facebook-core-5.15.3\AndroidManifest.xml:42:13-37
+146-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\e24ed458064fee905d5f0d03e5965251\jetified-facebook-core-5.15.3\AndroidManifest.xml:42:13-37
 147
 148        <receiver
-148-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\ce3c9635f118d18e6faaca8e1af4c017\jetified-facebook-core-5.15.3\AndroidManifest.xml:44:9-50:20
+148-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\e24ed458064fee905d5f0d03e5965251\jetified-facebook-core-5.15.3\AndroidManifest.xml:44:9-50:20
 149            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
-149-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\ce3c9635f118d18e6faaca8e1af4c017\jetified-facebook-core-5.15.3\AndroidManifest.xml:45:13-86
+149-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\e24ed458064fee905d5f0d03e5965251\jetified-facebook-core-5.15.3\AndroidManifest.xml:45:13-86
 150            android:exported="false" >
-150-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\ce3c9635f118d18e6faaca8e1af4c017\jetified-facebook-core-5.15.3\AndroidManifest.xml:46:13-37
+150-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\e24ed458064fee905d5f0d03e5965251\jetified-facebook-core-5.15.3\AndroidManifest.xml:46:13-37
 151            <intent-filter>
-151-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\ce3c9635f118d18e6faaca8e1af4c017\jetified-facebook-core-5.15.3\AndroidManifest.xml:47:13-49:29
+151-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\e24ed458064fee905d5f0d03e5965251\jetified-facebook-core-5.15.3\AndroidManifest.xml:47:13-49:29
 152                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
-152-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\ce3c9635f118d18e6faaca8e1af4c017\jetified-facebook-core-5.15.3\AndroidManifest.xml:48:17-95
-152-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\ce3c9635f118d18e6faaca8e1af4c017\jetified-facebook-core-5.15.3\AndroidManifest.xml:48:25-92
+152-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\e24ed458064fee905d5f0d03e5965251\jetified-facebook-core-5.15.3\AndroidManifest.xml:48:17-95
+152-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\e24ed458064fee905d5f0d03e5965251\jetified-facebook-core-5.15.3\AndroidManifest.xml:48:25-92
 153            </intent-filter>
 154        </receiver>
 155
 156        <activity
-156-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\0b51e261c3d6b16a7e1190585a252a55\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+156-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\0b51e261c3d6b16a7e1190585a252a55\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
 157            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-157-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\0b51e261c3d6b16a7e1190585a252a55\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+157-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\0b51e261c3d6b16a7e1190585a252a55\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
 158            android:exported="false"
-158-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\0b51e261c3d6b16a7e1190585a252a55\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+158-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\0b51e261c3d6b16a7e1190585a252a55\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
 159            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-159-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\0b51e261c3d6b16a7e1190585a252a55\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+159-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\0b51e261c3d6b16a7e1190585a252a55\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
 160
 161        <provider
-161-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
+161-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
 162            android:name="com.google.firebase.provider.FirebaseInitProvider"
-162-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
+162-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
 163            android:authorities="edu.ucucite.quizlettyn.firebaseinitprovider"
-163-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
+163-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
 164            android:directBootAware="true"
-164-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
+164-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
 165            android:exported="false"
-165-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
+165-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
 166            android:initOrder="100" />
-166-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
+166-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
 167
 168        <meta-data
-168-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\ea032b517a5954dacb08e2dcade0980b\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
+168-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\ea032b517a5954dacb08e2dcade0980b\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
 169            android:name="com.google.android.gms.version"
-169-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\ea032b517a5954dacb08e2dcade0980b\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
+169-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\ea032b517a5954dacb08e2dcade0980b\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
 170            android:value="@integer/google_play_services_version" />
-170-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\ea032b517a5954dacb08e2dcade0980b\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
+170-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\ea032b517a5954dacb08e2dcade0980b\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
 171
 172        <provider
-172-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\62161d83a5f1f63c2549d3610631f4d5\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+172-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\62161d83a5f1f63c2549d3610631f4d5\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
 173            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-173-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\62161d83a5f1f63c2549d3610631f4d5\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+173-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\62161d83a5f1f63c2549d3610631f4d5\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
 174            android:authorities="edu.ucucite.quizlettyn.lifecycle-process"
-174-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\62161d83a5f1f63c2549d3610631f4d5\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+174-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\62161d83a5f1f63c2549d3610631f4d5\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
 175            android:exported="false"
-175-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\62161d83a5f1f63c2549d3610631f4d5\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+175-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\62161d83a5f1f63c2549d3610631f4d5\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
 176            android:multiprocess="true" />
-176-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Prog\.gradle\caches\transforms-2\files-2.1\62161d83a5f1f63c2549d3610631f4d5\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+176-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Jun\.gradle\caches\transforms-2\files-2.1\62161d83a5f1f63c2549d3610631f4d5\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
 177    </application>
 178
 179</manifest>

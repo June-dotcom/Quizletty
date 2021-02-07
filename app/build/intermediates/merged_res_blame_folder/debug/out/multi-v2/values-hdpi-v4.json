@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Prog\\Documents\\QuizlettyX\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+            "outputFile": "C:\\Users\\Jun\\AndroidStudioProjects\\Quizletty\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Prog\\.gradle\\caches\\transforms-2\\files-2.1\\8602c2f677dbc61cac20155eaf71d2f2\\appcompat-1.2.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "source": "C:\\Users\\Jun\\.gradle\\caches\\transforms-2\\files-2.1\\8602c2f677dbc61cac20155eaf71d2f2\\appcompat-1.2.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Prog\\.gradle\\caches\\transforms-2\\files-2.1\\6dddc4e00f60d2a8fcdad1d74f817d1f\\jetified-core-1.9.13\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "source": "C:\\Users\\Jun\\.gradle\\caches\\transforms-2\\files-2.1\\0a54358645f9da3edea02ab43adb0a54\\jetified-core-1.9.13\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

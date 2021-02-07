@@ -17,8 +17,13 @@ edu/ucucite/quizlettyn/login/StartActivity.java
  edu.ucucite.quizlettyn.login.StartActivity$6
 edu/ucucite/quizlettyn/score/ScoreActivity.java
  edu.ucucite.quizlettyn.score.ScoreActivity
-edu/ucucite/quizlettyn/WebArticleActivity.java
- edu.ucucite.quizlettyn.WebArticleActivity
+edu/ucucite/quizlettyn/fragment_nav/sharedquizzes/sharedQuizAdapter.java
+ edu.ucucite.quizlettyn.fragment_nav.sharedquizzes.sharedQuizAdapter
+ edu.ucucite.quizlettyn.fragment_nav.sharedquizzes.sharedQuizAdapter$1
+ edu.ucucite.quizlettyn.fragment_nav.sharedquizzes.sharedQuizAdapter$MyViewHolder
+ edu.ucucite.quizlettyn.fragment_nav.sharedquizzes.sharedQuizAdapter$MyViewHolder$1
+ edu.ucucite.quizlettyn.fragment_nav.sharedquizzes.sharedQuizAdapter$MyViewHolder$2
+ edu.ucucite.quizlettyn.fragment_nav.sharedquizzes.sharedQuizAdapter$OnItemClickListener
 edu/ucucite/quizlettyn/editquiz/EditActivity.java
  edu.ucucite.quizlettyn.editquiz.EditActivity
  edu.ucucite.quizlettyn.editquiz.EditActivity$1
@@ -37,14 +42,13 @@ edu/ucucite/quizlettyn/fragment_nav/logout/logoutFragment.java
  edu.ucucite.quizlettyn.fragment_nav.logout.logoutFragment
 edu/ucucite/quizlettyn/fragment_nav/createquiz/quizItem.java
  edu.ucucite.quizlettyn.fragment_nav.createquiz.quizItem
-edu/ucucite/quizlettyn/fragment_nav/createquiz/createQuizAdapter.java
- edu.ucucite.quizlettyn.fragment_nav.createquiz.createQuizAdapter
- edu.ucucite.quizlettyn.fragment_nav.createquiz.createQuizAdapter$OnItemClickListener
- edu.ucucite.quizlettyn.fragment_nav.createquiz.createQuizAdapter$createQuizViewHolder
- edu.ucucite.quizlettyn.fragment_nav.createquiz.createQuizAdapter$createQuizViewHolder$1
- edu.ucucite.quizlettyn.fragment_nav.createquiz.createQuizAdapter$createQuizViewHolder$2
- edu.ucucite.quizlettyn.fragment_nav.createquiz.createQuizAdapter$createQuizViewHolder$3
- edu.ucucite.quizlettyn.fragment_nav.createquiz.createQuizAdapter$createQuizViewHolder$4
+edu/ucucite/quizlettyn/fragment_nav/myquizzes/myquizzesFragment.java
+ edu.ucucite.quizlettyn.fragment_nav.myquizzes.myquizzesFragment
+ edu.ucucite.quizlettyn.fragment_nav.myquizzes.myquizzesFragment$1
+ edu.ucucite.quizlettyn.fragment_nav.myquizzes.myquizzesFragment$2
+ edu.ucucite.quizlettyn.fragment_nav.myquizzes.myquizzesFragment$3
+ edu.ucucite.quizlettyn.fragment_nav.myquizzes.myquizzesFragment$4
+ edu.ucucite.quizlettyn.fragment_nav.myquizzes.myquizzesFragment$5
 edu/ucucite/quizlettyn/takequiz/TakeQuizAdapter.java
  edu.ucucite.quizlettyn.takequiz.TakeQuizAdapter
  edu.ucucite.quizlettyn.takequiz.TakeQuizAdapter$MyViewHolder
@@ -65,8 +69,13 @@ edu/ucucite/quizlettyn/score/resultAdapter.java
 edu/ucucite/quizlettyn/SplashActivity.java
  edu.ucucite.quizlettyn.SplashActivity
  edu.ucucite.quizlettyn.SplashActivity$1
-edu/ucucite/quizlettyn/BuildConfig.java
- edu.ucucite.quizlettyn.BuildConfig
+edu/ucucite/quizlettyn/takequiz/TakeQuiz.java
+ edu.ucucite.quizlettyn.takequiz.TakeQuiz
+ edu.ucucite.quizlettyn.takequiz.TakeQuiz$1
+ edu.ucucite.quizlettyn.takequiz.TakeQuiz$2
+ edu.ucucite.quizlettyn.takequiz.TakeQuiz$3
+ edu.ucucite.quizlettyn.takequiz.TakeQuiz$4
+ edu.ucucite.quizlettyn.takequiz.TakeQuiz$5
 edu/ucucite/quizlettyn/fragment_nav/createquiz/quizInfo.java
  edu.ucucite.quizlettyn.fragment_nav.createquiz.quizInfo
 edu/ucucite/quizlettyn/fragment_nav/myquizzes/myQuizItems.java
@@ -79,15 +88,24 @@ edu/ucucite/quizlettyn/editquiz/editQuizAdapter.java
  edu.ucucite.quizlettyn.editquiz.editQuizAdapter$createQuizViewHolder$2
  edu.ucucite.quizlettyn.editquiz.editQuizAdapter$createQuizViewHolder$3
  edu.ucucite.quizlettyn.editquiz.editQuizAdapter$createQuizViewHolder$4
-edu/ucucite/quizlettyn/fragment_nav/home/preloadedquizmiscs/preloaded_quiz_obj.java
- edu.ucucite.quizlettyn.fragment_nav.home.preloadedquizmiscs.preloaded_quiz_obj
-edu/ucucite/quizlettyn/shareQuiztoUser/UserQueryInfo.java
- edu.ucucite.quizlettyn.shareQuiztoUser.UserQueryInfo
-edu/ucucite/quizlettyn/shareQuiztoUser/userItemAdapter.java
- edu.ucucite.quizlettyn.shareQuiztoUser.userItemAdapter
- edu.ucucite.quizlettyn.shareQuiztoUser.userItemAdapter$OnItemClickListener
- edu.ucucite.quizlettyn.shareQuiztoUser.userItemAdapter$shareUserViewHolder
- edu.ucucite.quizlettyn.shareQuiztoUser.userItemAdapter$shareUserViewHolder$1
+edu/ucucite/quizlettyn/fragment_nav/myquizzes/myQuizItemsAdapter.java
+ edu.ucucite.quizlettyn.fragment_nav.myquizzes.myQuizItemsAdapter
+ edu.ucucite.quizlettyn.fragment_nav.myquizzes.myQuizItemsAdapter$1
+ edu.ucucite.quizlettyn.fragment_nav.myquizzes.myQuizItemsAdapter$MyViewHolder
+ edu.ucucite.quizlettyn.fragment_nav.myquizzes.myQuizItemsAdapter$MyViewHolder$1
+ edu.ucucite.quizlettyn.fragment_nav.myquizzes.myQuizItemsAdapter$MyViewHolder$2
+ edu.ucucite.quizlettyn.fragment_nav.myquizzes.myQuizItemsAdapter$MyViewHolder$3
+ edu.ucucite.quizlettyn.fragment_nav.myquizzes.myQuizItemsAdapter$MyViewHolder$4
+ edu.ucucite.quizlettyn.fragment_nav.myquizzes.myQuizItemsAdapter$OnItemClickListener
+edu/ucucite/quizlettyn/fragment_nav/home/preloadedquizmiscs/preloaded_quiz_adapter.java
+ edu.ucucite.quizlettyn.fragment_nav.home.preloadedquizmiscs.preloaded_quiz_adapter
+ edu.ucucite.quizlettyn.fragment_nav.home.preloadedquizmiscs.preloaded_quiz_adapter$1
+ edu.ucucite.quizlettyn.fragment_nav.home.preloadedquizmiscs.preloaded_quiz_adapter$MyViewHolder
+edu/ucucite/quizlettyn/ScanQrQzCodeActivity.java
+ edu.ucucite.quizlettyn.ScanQrQzCodeActivity
+ edu.ucucite.quizlettyn.ScanQrQzCodeActivity$1
+ edu.ucucite.quizlettyn.ScanQrQzCodeActivity$2
+ edu.ucucite.quizlettyn.ScanQrQzCodeActivity$3
 edu/ucucite/quizlettyn/fragment_nav/sharedquizzes/SharedQuizzesFragment.java
  edu.ucucite.quizlettyn.fragment_nav.sharedquizzes.SharedQuizzesFragment
  edu.ucucite.quizlettyn.fragment_nav.sharedquizzes.SharedQuizzesFragment$1
@@ -114,42 +132,24 @@ edu/ucucite/quizlettyn/fragment_nav/createquiz/createquizFragment.java
  edu.ucucite.quizlettyn.fragment_nav.createquiz.createquizFragment$7
  edu.ucucite.quizlettyn.fragment_nav.createquiz.createquizFragment$8
  edu.ucucite.quizlettyn.fragment_nav.createquiz.createquizFragment$9
-edu/ucucite/quizlettyn/fragment_nav/myquizzes/myQuizItemsAdapter.java
- edu.ucucite.quizlettyn.fragment_nav.myquizzes.myQuizItemsAdapter
- edu.ucucite.quizlettyn.fragment_nav.myquizzes.myQuizItemsAdapter$1
- edu.ucucite.quizlettyn.fragment_nav.myquizzes.myQuizItemsAdapter$MyViewHolder
- edu.ucucite.quizlettyn.fragment_nav.myquizzes.myQuizItemsAdapter$MyViewHolder$1
- edu.ucucite.quizlettyn.fragment_nav.myquizzes.myQuizItemsAdapter$MyViewHolder$2
- edu.ucucite.quizlettyn.fragment_nav.myquizzes.myQuizItemsAdapter$MyViewHolder$3
- edu.ucucite.quizlettyn.fragment_nav.myquizzes.myQuizItemsAdapter$MyViewHolder$4
- edu.ucucite.quizlettyn.fragment_nav.myquizzes.myQuizItemsAdapter$OnItemClickListener
-edu/ucucite/quizlettyn/fragment_nav/home/preloadedquizmiscs/preloaded_quiz_adapter.java
- edu.ucucite.quizlettyn.fragment_nav.home.preloadedquizmiscs.preloaded_quiz_adapter
- edu.ucucite.quizlettyn.fragment_nav.home.preloadedquizmiscs.preloaded_quiz_adapter$1
- edu.ucucite.quizlettyn.fragment_nav.home.preloadedquizmiscs.preloaded_quiz_adapter$MyViewHolder
-edu/ucucite/quizlettyn/ScanQrQzCodeActivity.java
- edu.ucucite.quizlettyn.ScanQrQzCodeActivity
- edu.ucucite.quizlettyn.ScanQrQzCodeActivity$1
- edu.ucucite.quizlettyn.ScanQrQzCodeActivity$2
- edu.ucucite.quizlettyn.ScanQrQzCodeActivity$3
-edu/ucucite/quizlettyn/fragment_nav/sharedquizzes/sharedQuizAdapter.java
- edu.ucucite.quizlettyn.fragment_nav.sharedquizzes.sharedQuizAdapter
- edu.ucucite.quizlettyn.fragment_nav.sharedquizzes.sharedQuizAdapter$1
- edu.ucucite.quizlettyn.fragment_nav.sharedquizzes.sharedQuizAdapter$MyViewHolder
- edu.ucucite.quizlettyn.fragment_nav.sharedquizzes.sharedQuizAdapter$MyViewHolder$1
- edu.ucucite.quizlettyn.fragment_nav.sharedquizzes.sharedQuizAdapter$MyViewHolder$2
- edu.ucucite.quizlettyn.fragment_nav.sharedquizzes.sharedQuizAdapter$OnItemClickListener
-edu/ucucite/quizlettyn/takequiz/TakeQuiz.java
- edu.ucucite.quizlettyn.takequiz.TakeQuiz
- edu.ucucite.quizlettyn.takequiz.TakeQuiz$1
- edu.ucucite.quizlettyn.takequiz.TakeQuiz$2
- edu.ucucite.quizlettyn.takequiz.TakeQuiz$3
- edu.ucucite.quizlettyn.takequiz.TakeQuiz$4
- edu.ucucite.quizlettyn.takequiz.TakeQuiz$5
-edu/ucucite/quizlettyn/fragment_nav/myquizzes/myquizzesFragment.java
- edu.ucucite.quizlettyn.fragment_nav.myquizzes.myquizzesFragment
- edu.ucucite.quizlettyn.fragment_nav.myquizzes.myquizzesFragment$1
- edu.ucucite.quizlettyn.fragment_nav.myquizzes.myquizzesFragment$2
- edu.ucucite.quizlettyn.fragment_nav.myquizzes.myquizzesFragment$3
- edu.ucucite.quizlettyn.fragment_nav.myquizzes.myquizzesFragment$4
- edu.ucucite.quizlettyn.fragment_nav.myquizzes.myquizzesFragment$5
+edu/ucucite/quizlettyn/fragment_nav/createquiz/createQuizAdapter.java
+ edu.ucucite.quizlettyn.fragment_nav.createquiz.createQuizAdapter
+ edu.ucucite.quizlettyn.fragment_nav.createquiz.createQuizAdapter$OnItemClickListener
+ edu.ucucite.quizlettyn.fragment_nav.createquiz.createQuizAdapter$createQuizViewHolder
+ edu.ucucite.quizlettyn.fragment_nav.createquiz.createQuizAdapter$createQuizViewHolder$1
+ edu.ucucite.quizlettyn.fragment_nav.createquiz.createQuizAdapter$createQuizViewHolder$2
+ edu.ucucite.quizlettyn.fragment_nav.createquiz.createQuizAdapter$createQuizViewHolder$3
+ edu.ucucite.quizlettyn.fragment_nav.createquiz.createQuizAdapter$createQuizViewHolder$4
+edu/ucucite/quizlettyn/BuildConfig.java
+ edu.ucucite.quizlettyn.BuildConfig
+edu/ucucite/quizlettyn/WebArticleActivity.java
+ edu.ucucite.quizlettyn.WebArticleActivity
+edu/ucucite/quizlettyn/shareQuiztoUser/userItemAdapter.java
+ edu.ucucite.quizlettyn.shareQuiztoUser.userItemAdapter
+ edu.ucucite.quizlettyn.shareQuiztoUser.userItemAdapter$OnItemClickListener
+ edu.ucucite.quizlettyn.shareQuiztoUser.userItemAdapter$shareUserViewHolder
+ edu.ucucite.quizlettyn.shareQuiztoUser.userItemAdapter$shareUserViewHolder$1
+edu/ucucite/quizlettyn/shareQuiztoUser/UserQueryInfo.java
+ edu.ucucite.quizlettyn.shareQuiztoUser.UserQueryInfo
+edu/ucucite/quizlettyn/fragment_nav/home/preloadedquizmiscs/preloaded_quiz_obj.java
+ edu.ucucite.quizlettyn.fragment_nav.home.preloadedquizmiscs.preloaded_quiz_obj
