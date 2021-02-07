@@ -120,12 +120,12 @@
         "source": "C:\\Users\\Jun\\AndroidStudioProjects\\Quizletty\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\Jun\\AndroidStudioProjects\\Quizletty\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_large_triangles.xml.flat",
-        "source": "C:\\Users\\Jun\\AndroidStudioProjects\\Quizletty\\app\\src\\main\\res\\drawable\\ic_large_triangles.xml"
-    },
-    {
         "merged": "C:\\Users\\Jun\\AndroidStudioProjects\\Quizletty\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\Jun\\AndroidStudioProjects\\Quizletty\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Jun\\AndroidStudioProjects\\Quizletty\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_large_triangles.xml.flat",
+        "source": "C:\\Users\\Jun\\AndroidStudioProjects\\Quizletty\\app\\src\\main\\res\\drawable\\ic_large_triangles.xml"
     },
     {
         "merged": "C:\\Users\\Jun\\AndroidStudioProjects\\Quizletty\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_assignment_24.xml.flat",

@@ -6,6 +6,7 @@ import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -19,6 +20,7 @@ import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.android.material.card.MaterialCardView;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -61,7 +63,8 @@ public class myquizzesFragment extends Fragment {
         view = inflater.inflate(R.layout.fragment_myquizzes, container, false);
         btn_start_quiz = view.findViewById(R.id.btn_qcode_enter);
         quiz_code_query_ed = view.findViewById(R.id.quiz_code_ed);
-
+        MaterialCardView cardView = view.findViewById(R.id.card_q_code);
+cardView.setVisibility(View.GONE);
         // get current user
         create_menu_list();
         buildRecyclerView();

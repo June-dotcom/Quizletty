@@ -2185,6 +2185,7 @@ id profile_img
 id progress_bar
 id progress_circular
 id progress_horizontal
+id q_code_cont_sec
 id q_menu_del_btn
 id q_menu_edit_btn
 id q_menu_save_btn

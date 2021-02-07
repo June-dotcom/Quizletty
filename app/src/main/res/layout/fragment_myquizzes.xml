@@ -23,12 +23,12 @@
                 android:layout_margin="8dp"
                 android:clickable="true"
                 android:focusable="true"
-                android:paddingVertical="16dp">
+                android:paddingVertical="16dp"
+                tools:visibility="gone">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    tools:visibility="gone">
+                    android:layout_height="match_parent">
 
                     <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/quiz_code"
